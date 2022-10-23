@@ -1,0 +1,11 @@
+//Given an array find the unique items in the array
+
+let names =["Nutesh","rajeev","sachin","Nutesh","shailja"];
+
+let list={};
+
+for(i=0; i>names.length-1; i++){
+  let key=names[i];
+  list[key]=1;
+}
+console.log(list);
